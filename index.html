@@ -8,6 +8,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 
     <style>
         .homeP{
@@ -24,6 +25,7 @@
             #navbar{
                 display: flex; flex-direction: column;
                 align-items: center; justify-content: center;
+                position: absolute;
             }
             .emailbtn{
                 margin: 5px auto; width: 3cm;
@@ -77,6 +79,9 @@
             .voldoPFP{
                 display: none;
             }
+            .hamburger{
+                display: block; position: absolute; top: 0px;
+            }
         }
     </style>
 
@@ -85,7 +90,6 @@
     <nav id="navbar">
         <div class="logo">
             <img src="https://scontent.fdel27-5.fna.fbcdn.net/v/t1.6435-9/171062071_104393765119833_4615241466267931777_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=FgIJn6kz1kUAX_5a-C3&_nc_ht=scontent.fdel27-5.fna&oh=00_AT-N9x8sM2z4HW2_DDbfhxsJ6fzJFb1IsXg50iTOy1EilA&oe=6346A1FD" alt="Voldo pic" class="voldoPFP">
-            
         </div>
         <div>
             <ul>
@@ -166,6 +170,13 @@
             Submit Query
         </button>
     </section>
+
+    <div class="divbtn">
+        <button class="hamburger" id="hamburger" onclick="toggleNav()">
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/hamburger-menu-icon.png"
+            alt="click for navbar" class="navimage">
+        </button>
+    </div>
 
 </body>
 </html>
