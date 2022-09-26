@@ -218,5 +218,5 @@ nav > div > ul > li a:hover{
 }
 
 .divbtn{
-    width: 100vw; position: absolute; top: 0px;
+    width: 100vw; position: absolute; top: 0px;  left: 10vw;
 }
