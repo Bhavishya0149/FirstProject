@@ -42,7 +42,7 @@ div > button > a:hover{
 }
 /* links */
 #navbar{
-    display: flex; align-items: center;
+    display: flex; align-items: center; top: 0px;
     position: fixed; width: 100vw; margin-top: 0px;
 }
 
@@ -163,13 +163,13 @@ nav > div > ul > li a:hover{
 }
 
 .clientpic{
-    width: 20vw;  height: 170px; width: 170px;
+    width: 20vw; height: 170px; width: 170px;
 }
 
 .clientdiv{
     display: flex;
     justify-content: space-around;
-}
+}   
 
 /* contact us */
 .contact{
@@ -204,4 +204,19 @@ nav > div > ul > li a:hover{
 
 .CUSubmit:hover{
     cursor: pointer; background-color: red; color: yellow;
+}
+
+/* Nav Toggle Button */
+.hamburger{
+    background: none;
+    height: 35px; width: 3vw; border: none;
+    display: none; top: unset;
+}
+
+.navimage{
+    height: 35px; width: 3vw;
+}
+
+.divbtn{
+    width: 100vw; position: absolute; top: 0px;
 }
