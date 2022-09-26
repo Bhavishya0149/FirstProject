@@ -208,7 +208,7 @@ nav > div > ul > li a:hover{
 
 /* Nav Toggle Button */
 .hamburger{
-    background: none;
+    background: none; top: 0px; left: 10vw;
     height: 35px; width: 3vw; border: none;
     display: none; top: unset;
 }
@@ -217,6 +217,3 @@ nav > div > ul > li a:hover{
     height: 35px; width: 3vw;
 }
 
-.divbtn{
-    width: 100vw; position: absolute; top: 0px;  left: 10vw;
-}
